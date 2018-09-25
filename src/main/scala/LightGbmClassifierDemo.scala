@@ -18,7 +18,7 @@ object LightGbmClassifierDemo {
     val lgbmModel = new LightGBMRegressor()
       .setFeaturesCol("features")
       .setPredictionCol("prediction")
-      .setApplication("regression_l2")
+//      .setApplication("regression_l2")
       .fit(trainData)
 
     evaluateResult[LightGBMRegressionModel]("lightGbm", lgbmModel, trainData)

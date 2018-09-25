@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180917232611"/>
+		date="20180925164246"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.17" status="release" pubdate="20180131145236" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
@@ -345,7 +345,7 @@
 		<module organisation="org.scala-sbt.ivy" name="ivy">
 			<revision name="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" status="release" pubdate="20171105074255" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/ivy" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
 				<license name="Apache-2.0" url="https://github.com/sbt/ivy/blob/2.3.x-sbt/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3556" time="0" location="/Users/katerinaglushchenko/.ivy2/cache/org.scala-sbt.ivy/ivy/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.pom"/>
+				<metadata-artifact status="no" details="" size="3730" time="0" location="/Users/katerinaglushchenko/.ivy2/cache/org.scala-sbt.ivy/ivy/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.pom"/>
 				<caller organisation="org.scala-sbt" name="ivy" conf="compile" rev="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" rev-constraint-default="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" rev-constraint-dynamic="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" callerrev="0.13.17"/>
 				<artifacts>
 					<artifact name="ivy" type="jar" ext="jar" status="no" details="" size="1137428" time="0" location="/Users/katerinaglushchenko/.ivy2/cache/org.scala-sbt.ivy/ivy/jars/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar">

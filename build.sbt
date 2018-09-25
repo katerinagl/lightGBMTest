@@ -11,5 +11,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % "2.3.0",
   "org.apache.spark" %% "spark-mllib" % "2.3.0",
   "ml.dmlc" % "xgboost4j-spark" % "0.72",
-  "com.microsoft.ml.spark" %% "mmlspark" % "0.13"
+  "com.microsoft.ml.spark" %% "mmlspark" % "0.14"
 )
